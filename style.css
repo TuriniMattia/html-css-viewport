@@ -25,31 +25,124 @@ body {
 
 }
 
-.container{
-    max-width: 800px;
+
+.container {
+    max-width: 1000px;
     padding: 20px;
-    margin: 0 auto;
+}
+
+
+#app {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.app-body{
+    flex-grow: 1;
+    background-color:black ;
+    color: aliceblue;
+    display: flex;
+}
+
+.app-menu{
+   width: 200px;
+   padding: 20px;
+   
+}
+
+.app-menu :last-child{
+   margin-top: auto;
+}
+
+.app-content{
+    flex-grow: 1;
 
 }
 
-header{
-    background-color: #000000;
-    color: white;
+.btn-section {
+    background-color: aquamarine;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end
+
 }
 
-.hero {
-    background-color: #14181F;
-    color: white;
-    height: 50vh;
+button {
+    border-radius: 999px;
+    padding: 10px;
+    background-color: white;
+    border-color: transparent;
+
 }
 
-footer{
-    background-color: #242424;
-    color: white;
+
+.section-1{
+
+
 }
 
-.row{
+.section-1 div {
+    padding: 40px;
+    border-left: solid white;
+}
+
+
+
+.section-2{
+    padding: 20px;
+
+}
+
+.section-2 ul {
+    list-style: disc;
+    padding-left: 30px;
+}
+
+.section-2 h1 {
+    padding-bottom: 20px;
+}
+
+
+.bottom-bar{
+    background-color: gray;
+    color: aliceblue;
+    height: 100px;
     display: flex;
     flex-wrap: wrap;
+    justify-content:space-between;
+    align-content: center;
     padding: 20px;
+
 }
+ .bottom-bar ul {
+    display: flex;
+    gap: 10px;
+}
+
+.app-menu{
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+/* .debug #app > * {
+    border: 2px solid black;
+    padding: 20px;
+} */
+
+
+/* .debug .app-body > * {
+    border: 2px solid red;
+    padding: 20px;
+} */
+
+/* .debug .app-menu > *{
+    border: 2px solid red;
+    padding: 20px;
+    
+} */
+
